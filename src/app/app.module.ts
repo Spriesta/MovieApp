@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainPageComponent } from './components/main-page/main-page.component';
+import { SliderrComponent } from './components/sliderr/sliderr.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { MainPageComponent } from './components/main-page/main-page.component';
     AppComponent,
     HeaderComponent,
     MainPageComponent,
+    SliderrComponent,
 
   ],
   imports: [
