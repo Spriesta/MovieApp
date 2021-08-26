@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { MainPageComponent } from './components/main-page/main-page.component';
 import { SliderrComponent } from './components/sliderr/sliderr.component';
 
+import { NgImageSliderModule } from 'ng-image-slider';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,7 @@ import { SliderrComponent } from './components/sliderr/sliderr.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    NgImageSliderModule
 
   ],
   providers: [],
