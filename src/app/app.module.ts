@@ -8,6 +8,7 @@ import { MainPageComponent } from './components/main-page/main-page.component';
 import { SliderrComponent } from './components/sliderr/sliderr.component';
 
 import { NgImageSliderModule } from 'ng-image-slider';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
     HeaderComponent,
     MainPageComponent,
     SliderrComponent,
+    FooterComponent,
 
   ],
   imports: [

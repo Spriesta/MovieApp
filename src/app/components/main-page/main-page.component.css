@@ -6,8 +6,74 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     list-style-type: none;
     box-sizing: border-box;
+}
 
+
+.main{
+
+  margin-top: 30px;
+  border-top: gray 1px solid;
+  padding-top: 10px;
+
+}
+
+.box:hover{
+  transform: scale(.95);
+
+}
+
+.box{
+ background-color: indigo;
+width: 300px;
+height: 400px;
+margin: 10px 15px 10px 10px ;
+float: left;      /*soldan sağa doğru sıraladı*/
+}
+
+
+.box img{
+width:  300px;
+height: 350px ;
+border-radius: 10px;
 
 }
 
 
+
+ul{
+  text-align: center;
+}
+
+
+ul li{
+
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+  margin: 40px 15px 0 15px ;
+
+
+ }
+
+ li a:hover{
+   background-color:rgb(220,53,69) ;
+   color: white;
+ }
+
+
+li a{
+  font-weight: 700;
+  text-decoration:none;
+  background-color: rgb(77,81,84);
+  width: 48px;
+  height: 48px;
+  padding: 12px 20px 20px 20px;
+  border-radius: 25px;
+
+}
+
+
+.pages{
+  border-bottom: gray 1px solid;
+  padding-bottom: 25px;
+}
