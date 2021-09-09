@@ -9,6 +9,8 @@ import { SliderrComponent } from './components/sliderr/sliderr.component';
 import { HttpClientModule } from "@angular/common/http"; // api kısmı için
 import { NgImageSliderModule } from 'ng-image-slider';
 import { FooterComponent } from './components/footer/footer.component';
+import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { FooterComponent } from './components/footer/footer.component';
     MainPageComponent,
     SliderrComponent,
     FooterComponent,
+    RegisterComponent,
+    LoginComponent,
 
   ],
   imports: [
