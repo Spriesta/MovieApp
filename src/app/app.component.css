@@ -1,8 +1,11 @@
 .container{
    background-color: rgb(33,37,41);
   width: 1000px;
-  height: 4000px;
+  height: 2100px;
  border-radius:12px;
    margin: auto;            /*ekranı daralttığımızda çözünürlüğe göre otomatik olarak ortalıyor divi*/
    margin-top: 100px;         /*div yukarıdan it  */
 }
+
+
+
