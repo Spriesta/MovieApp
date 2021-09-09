@@ -6,6 +6,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     list-style-type: none;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 
@@ -23,7 +24,7 @@
 }
 
 .box{
- background-color: indigo;
+ background-color:rgb(33,37,41);
 width: 300px;
 height: 400px;
 margin: 10px 15px 10px 10px ;
@@ -70,10 +71,47 @@ li a{
   padding: 12px 20px 20px 20px;
   border-radius: 25px;
 
+
 }
 
 
 .pages{
   border-bottom: gray 1px solid;
   padding-bottom: 25px;
+}
+
+
+
+.info {
+height: 50px;
+margin-top: 15px;
+
+
+}
+
+
+
+ .imdb{
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 50%;
+  background-color: #F38D24;
+  box-shadow: 0 0 30px #000;
+  position: absolute;
+  font-weight: 600;
+  margin-left: 250px;
+  margin-top: -60px;
+
+}
+
+
+.mname{
+padding-left: 15px;
+padding-bottom: 5px;
+font-weight: bolder;
+color:antiquewhite;
+border-bottom: 1px solid grey ;
+
 }

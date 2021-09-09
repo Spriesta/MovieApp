@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainPageComponent } from './components/main-page/main-page.component';
 import { SliderrComponent } from './components/sliderr/sliderr.component';
-
+import { HttpClientModule } from "@angular/common/http"; // api kısmı için
 import { NgImageSliderModule } from 'ng-image-slider';
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -23,7 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgImageSliderModule
+    NgImageSliderModule,
+    HttpClientModule  //api kısmı için
 
   ],
   providers: [],
